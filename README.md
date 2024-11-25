@@ -21,9 +21,9 @@ To me, this project is useful because, as I mentioned before, I want to make gam
 
 As for how it will be used, I want to create an application that will run using a list of assets such as visuals and sound effects to create a more game-like experience.
 
-Here are my initial class diagrams:
+Here are my updated class diagrams (as of 11-24-2024):
 
-![Initial Class Diagrams 2](https://github.com/user-attachments/assets/8991c6e7-0940-4a6e-bc0e-01f2c56f64c8)
+![Updated UML Diagram](https://github.com/user-attachments/assets/91d61783-9b57-40b7-adbb-d15466e5e005)
 
 This diagram is just my starting draft and certain methods and processes may be subject to move and/or change over time.
 
