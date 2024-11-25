@@ -23,7 +23,79 @@ As for how it will be used, I want to create an application that will run using 
 
 Here are my updated class diagrams (as of 11-24-2024):
 
-![Updated UML Diagram](https://github.com/user-attachments/assets/91d61783-9b57-40b7-adbb-d15466e5e005)
+[Uploading UclassDiagram
+    BlackjackGame <|-- Deck : contains
+    BlackjackGame <|-- Money : uses
+    BlackjackGame <|-- Dealer : play against
+    Deck <|-- Cards : uses
+    BlackjackGame : +Deck deck
+    BlackjackGame : +Dealer dealer
+    BlackjackGame : +Money playerMoney
+    BlackjackGame : +arrayList playerHand
+    BlackjackGame : +int playerScore
+    BlackjackGame : +int currentBet
+    BlackjackGame : +int roundsWon
+    BlackjackGame : +int roundsLost
+    BlackjackGame : +int roundsTied
+    BlackjackGame : +int moneyWon
+    BlackjackGame : +int moneyLost
+    BlackjackGame : +double winPercentage
+    BlackjackGame : +boolean isDealerSecondCardHidden
+    BlackjackGame: +start()
+    BlackjackGame: +setBackground()
+    BlackjackGame: +updatePlayerMoneyDisplay()
+    BlackjackGame: +updateCurrentBetDisplay()
+    BlackjackGame: +updatePlayerHandUI()
+    BlackjackGame: +updateDealerHandUI()
+    BlackjackGame: +updateWinScore()
+    BlackjackGame: +updateLoseScore()
+    BlackjackGame: +updateScores()
+    BlackjackGame: +cashOut()
+    BlackjackGame: +createMainMenu()
+    BlackjackGame: +createBettingScene()
+    BlackjackGame: +createGameScene()
+    BlackjackGame: +createResultsScreen()
+    BlackjackGame: +startBetting()
+    BlackjackGame: +startNewGame()
+    BlackjackGame: +handleHit()
+    BlackjackGame: +handleStand()
+    BlackjackGame: +calculateScores()
+    BlackjackGame: +endGame()
+    class Deck{
+      +arrayList deck
+      +shuffle()
+      +dealCard()
+      +getSize()
+    }
+    class Cards{
+      +string suits
+      +string ranks
+      +getSuit()
+      +getRank()
+      +toString()
+    }
+    class Money{
+      +int balance
+      +int bet
+      +Money()
+      +winMoney()
+      +loseMoney()
+      +placeBet()
+      +resetBet()
+      +canBet()
+      +getBalance()
+    }
+    class Dealer{
+      +arrayList hand
+      +int score
+      +addCard()
+      +shouldHit()
+      +calculateScore()
+      +getScore()
+      +getHand()
+    }
+    pdated UML Diagram (11-25-2024).mmd…]()
+
 
 This diagram is just my starting draft and certain methods and processes may be subject to move and/or change over time.
 
