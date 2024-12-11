@@ -30,3 +30,5 @@ This diagram was updated as I have gone along with creating my application, it i
 In terms of my plan, I plan on having a lot of the basic functionality of the game to be done and working within the first week or so of working on the project, then focusing on creating the GUI and implementing it over the next two weeks. Then, the last week will be focused mostly on debugging and testing all the features to make sure everything is working together properly.
 
 As for the estimate of effort, I have obviously chosen to work on this project on my own, so I will be the one putting in all the effort to create this project. I could definitely see a situation where I am getting a little ahead of myself with this project and it will end up being more difficult than I initially thought, but I want to try and push myself a bit to see what I can accomplish.
+
+Youtube Demo Video: https://youtu.be/w4m_Bn5JW_Y
