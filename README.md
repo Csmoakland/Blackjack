@@ -15,6 +15,8 @@ I am building a simple game of blackjack that will:
 -  Allow the player to "cash out" at the end and display the amount of money they won and lost, as well as number of hands they won, lost, and tied, with a win percentage.
 -  Have a GUI to display all this information to the user.
 
+Here is a quick Youtube demonstration video on how my application works: https://youtu.be/w4m_Bn5JW_Y
+
 I want to build this project because I would ideally like to be a game designer in the future, so making a more simplistic game like blackjack and creating a GUI for it will be great experience for me going into the future.
 
 To me, this project is useful because, as I mentioned before, I want to make games, but also I just want to create a fun game that anybody would be able to pick up and play if they want.
@@ -31,4 +33,3 @@ In terms of my plan, I plan on having a lot of the basic functionality of the ga
 
 As for the estimate of effort, I have obviously chosen to work on this project on my own, so I will be the one putting in all the effort to create this project. I could definitely see a situation where I am getting a little ahead of myself with this project and it will end up being more difficult than I initially thought, but I want to try and push myself a bit to see what I can accomplish.
 
-Youtube Demo Video: https://youtu.be/w4m_Bn5JW_Y
